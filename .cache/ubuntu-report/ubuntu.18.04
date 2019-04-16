@@ -1,0 +1,80 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "HP",
+    "Product": "HP ENVY x360 m6 Convertible"
+  },
+  "BIOS": {
+    "Vendor": "Insyde",
+    "Version": "F.16"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "78",
+    "Stepping": "3",
+    "Name": "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "1916"
+    }
+  ],
+  "RAM": 12.1,
+  "Disks": [
+    1000.2,
+    64
+  ],
+  "Partitions": [
+    400.2,
+    0.3,
+    62.5
+  ],
+  "Screens": [
+    {
+      "Size": "344mmx194mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Denver",
+  "Install": {
+    "Media": "Ubuntu 18.04.2 LTS \"Bionic Beaver\" - Release amd64 (20190210)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "6": "console_setup",
+      "10": "wireless",
+      "38": "prepare",
+      "143": "partman",
+      "148": "partman",
+      "165": "start_install",
+      "273": "timezone",
+      "285": "usersetup",
+      "323": "user_done",
+      "1184": "done"
+    }
+  }
+}
